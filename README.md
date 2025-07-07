@@ -18,12 +18,9 @@ A simple and responsive **Memory Card Game** built with **React**. Flip the card
 - ✅ Clean and minimal UI
 
 ---
-![Uploading react app capture.gif…]()
-
 ## 📸 Preview
-
-> *(Optional: Add a screenshot or GIF here if you have one)*  
-> You can also deploy the app and link it here.
+![Image](https://github.com/user-attachments/assets/07d63a35-bc48-4cee-9709-d5e0af3aebc0)
+play online -> https://memory-card-game-nine-tau.vercel.app/
 
 ---
 
