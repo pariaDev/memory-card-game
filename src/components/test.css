@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 1rem;
 }
 
 code {
@@ -13,25 +12,20 @@ code {
     monospace;
 }
 
-/* Responsive main container */
-.main-page {
-  margin: 2rem auto;
-  max-width: 100%;
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+
+.main-page{
+  margin-top: 30px;
+  margin-left: 500px;
 }
 
-/* Card container */
+/* card.css */
 .card-container {
   perspective: 1000px;
   display: inline-block;
-  margin: 1rem;
+  margin: 20px;
   transition: transform 0.6s;
 }
 
-/* Card inner */
 .card-inner {
   width: 100px;
   height: 120px;
@@ -40,12 +34,10 @@ code {
   transition: transform 0.6s;
 }
 
-/* Flip effect */
 .card-inner.flipped {
   transform: rotateY(180deg);
 }
 
-/* Front and back styles */
 .card-front,
 .card-back {
   position: absolute;
@@ -67,55 +59,13 @@ code {
   color: white;
 }
 
-/* Winner message */
-.winner {
-  margin: 2rem auto;
+.winner{
+  margin-left: 120px;
+  margin-top: 40px;
   color: rgb(120, 71, 28);
-  font-size: 1.5rem;
-  text-align: center;
 }
 
-/* Hide matched cards */
 .hidden {
   visibility: hidden;
   pointer-events: none;
-}
-
-/* ============ Media Queries for Responsive Design ============ */
-
-/* For tablets and below */
-@media (max-width: 768px) {
-  .card-inner {
-    width: 80px;
-    height: 100px;
-    font-size: 1.5rem;
-  }
-
-  .main-page {
-    width: 95%;
-    margin: 1rem auto;
-  }
-
-  .winner {
-    font-size: 1.2rem;
-    margin: 1rem auto;
-  }
-}
-
-/* For phones */
-@media (max-width: 480px) {
-  .card-inner {
-    width: 60px;
-    height: 80px;
-    font-size: 1.2rem;
-  }
-
-  .card-container {
-    margin: 0.5rem;
-  }
-
-  .winner {
-    font-size: 1rem;
-    margin: 0.5rem auto;
-  }
 }
